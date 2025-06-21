@@ -77,7 +77,7 @@
 #define PLATFORM_INFO_XML_PATH_XRFUSIONULT  "audio_platform_info_xrfusionult.xml"
 
 #include <linux/msm_audio.h>
-#if defined (PLATFORM_MSM8998) || (PLATFORM_SDM845) || (PLATFORM_SDM710) || \
+#if defined (PLATFORM_MSM8998) || (PLATFORM_SDM845) || (PLATFORM_SDM710) || (PLATFORM_SM8050) || \
     defined (PLATFORM_QCS605) || defined (PLATFORM_MSMNILE) || \
     defined (PLATFORM_KONA) || defined (PLATFORM_MSMSTEPPE) || \
     defined (PLATFORM_QCS405) || defined (PLATFORM_TRINKET) || \
@@ -12261,7 +12261,7 @@ int platform_get_supported_copp_sampling_rate(uint32_t stream_sr)
     return sample_rate;
 }
 
-#if defined (PLATFORM_MSM8998) || (PLATFORM_SDM845) || (PLATFORM_SDM710) || \
+#if defined (PLATFORM_MSM8998) || (PLATFORM_SDM845) || (PLATFORM_SDM710) || (PLATFORM_SM8050) || \
     defined (PLATFORM_QCS605) || defined (PLATFORM_MSMNILE) || \
     defined (PLATFORM_KONA) || defined (PLATFORM_MSMSTEPPE) || \
     defined (PLATFORM_QCS405) || defined (PLATFORM_TRINKET) || \
